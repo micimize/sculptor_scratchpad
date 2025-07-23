@@ -27,8 +27,8 @@ After a little bit I got something actually runnable!
 </details>
 
 
-I didn't scrutinize the code that much, which I'd certainly do if we falsify some of the other candidate root causes.
-But, to me the final result seemed plausible and alleviated some of my concerns for the time being
+I didn't scrutinize the code that much except to verify the latency time deltas weren't being obviously fudged.
+But to me, the final result seemed plausible and alleviated some of my concerns for the time being
 (there would have had to be near-second latency in the case we were investigating).
 
 ![](./docker_mount_stress_test/docker_mount_test.png)
